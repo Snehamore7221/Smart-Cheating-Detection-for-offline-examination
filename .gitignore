@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Frontend build output
+frontend/dist/
+dist/
+build/
+
+# Uploaded media and generated evidence
+data/videos/*
+!data/videos/.gitkeep
+data/evidence/*
+!data/evidence/.gitkeep
+data/incidents/*
+!data/incidents/.gitkeep
+
+# Temporary files and logs
+*.log
+*.tmp
+temp/
+tmp/
+
+# System and IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Test and coverage output
+.coverage
+htmlcov/

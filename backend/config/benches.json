@@ -1,0 +1,60 @@
+{
+  "defaultPreset": "centered_3col",
+  "presets": {
+    "centered_3col": {
+      "name": "Centered Hall (3 Columns × 4 Rows)",
+      "description": "Standard classroom layout with Left, Center, and Right aisle desk columns",
+      "benches": [
+        { "id": "B01", "name": "Student @ Bench B01", "deskLabel": "Row 1 Left (Front)", "xMin": 0.04, "yMin": 0.65, "xMax": 0.34, "yMax": 0.95 },
+        { "id": "B02", "name": "Student @ Bench B02", "deskLabel": "Row 1 Center (Front)", "xMin": 0.36, "yMin": 0.65, "xMax": 0.64, "yMax": 0.95 },
+        { "id": "B03", "name": "Student @ Bench B03", "deskLabel": "Row 1 Right (Front)", "xMin": 0.66, "yMin": 0.65, "xMax": 0.96, "yMax": 0.95 },
+        { "id": "B04", "name": "Student @ Bench B04", "deskLabel": "Row 2 Left", "xMin": 0.07, "yMin": 0.45, "xMax": 0.34, "yMax": 0.64 },
+        { "id": "B05", "name": "Student @ Bench B05", "deskLabel": "Row 2 Center", "xMin": 0.36, "yMin": 0.45, "xMax": 0.64, "yMax": 0.64 },
+        { "id": "B06", "name": "Student @ Bench B06", "deskLabel": "Row 2 Right", "xMin": 0.66, "yMin": 0.45, "xMax": 0.93, "yMax": 0.64 },
+        { "id": "B07", "name": "Student @ Bench B07", "deskLabel": "Row 3 Left", "xMin": 0.10, "yMin": 0.28, "xMax": 0.34, "yMax": 0.44 },
+        { "id": "B08", "name": "Student @ Bench B08", "deskLabel": "Row 3 Center", "xMin": 0.36, "yMin": 0.28, "xMax": 0.64, "yMax": 0.44 },
+        { "id": "B09", "name": "Student @ Bench B09", "deskLabel": "Row 3 Right", "xMin": 0.66, "yMin": 0.28, "xMax": 0.90, "yMax": 0.44 },
+        { "id": "B10", "name": "Student @ Bench B10", "deskLabel": "Row 4 Left (Back)", "xMin": 0.12, "yMin": 0.12, "xMax": 0.34, "yMax": 0.27 },
+        { "id": "B11", "name": "Student @ Bench B11", "deskLabel": "Row 4 Center (Back)", "xMin": 0.36, "yMin": 0.12, "xMax": 0.64, "yMax": 0.27 },
+        { "id": "B12", "name": "Student @ Bench B12", "deskLabel": "Row 4 Right (Back)", "xMin": 0.66, "yMin": 0.12, "xMax": 0.88, "yMax": 0.27 }
+      ]
+    },
+    "perspective_2col": {
+      "name": "Wide Perspective (2 Columns × 6 Rows)",
+      "description": "Hall layout with Left and Right desk columns along central walkway",
+      "benches": [
+        { "id": "B01", "name": "Student @ Bench B01", "deskLabel": "Row 1 Left (Front)", "xMin": 0.05, "yMin": 0.70, "xMax": 0.44, "yMax": 0.98 },
+        { "id": "B02", "name": "Student @ Bench B02", "deskLabel": "Row 1 Right (Front)", "xMin": 0.52, "yMin": 0.65, "xMax": 0.96, "yMax": 0.98 },
+        { "id": "B03", "name": "Student @ Bench B03", "deskLabel": "Row 2 Left", "xMin": 0.06, "yMin": 0.52, "xMax": 0.44, "yMax": 0.70 },
+        { "id": "B04", "name": "Student @ Bench B04", "deskLabel": "Row 2 Right", "xMin": 0.52, "yMin": 0.48, "xMax": 0.96, "yMax": 0.65 },
+        { "id": "B05", "name": "Student @ Bench B05", "deskLabel": "Row 3 Left", "xMin": 0.07, "yMin": 0.38, "xMax": 0.44, "yMax": 0.52 },
+        { "id": "B06", "name": "Student @ Bench B06", "deskLabel": "Row 3 Right", "xMin": 0.52, "yMin": 0.35, "xMax": 0.96, "yMax": 0.48 },
+        { "id": "B07", "name": "Student @ Bench B07", "deskLabel": "Row 4 Left", "xMin": 0.08, "yMin": 0.26, "xMax": 0.44, "yMax": 0.38 },
+        { "id": "B08", "name": "Student @ Bench B08", "deskLabel": "Row 4 Right", "xMin": 0.52, "yMin": 0.24, "xMax": 0.96, "yMax": 0.35 },
+        { "id": "B09", "name": "Student @ Bench B09", "deskLabel": "Row 5 Left", "xMin": 0.09, "yMin": 0.16, "xMax": 0.44, "yMax": 0.26 },
+        { "id": "B10", "name": "Student @ Bench B10", "deskLabel": "Row 5 Right", "xMin": 0.52, "yMin": 0.15, "xMax": 0.96, "yMax": 0.24 },
+        { "id": "B11", "name": "Student @ Bench B11", "deskLabel": "Row 6 Left (Back)", "xMin": 0.10, "yMin": 0.08, "xMax": 0.44, "yMax": 0.16 },
+        { "id": "B12", "name": "Student @ Bench B12", "deskLabel": "Row 6 Right (Back)", "xMin": 0.52, "yMin": 0.08, "xMax": 0.96, "yMax": 0.15 }
+      ]
+    },
+    "standard_grid": {
+      "name": "Standard Grid (4 Columns × 3 Rows)",
+      "description": "Uniform rectangular examination bench grid",
+      "benches": [
+        { "id": "B01", "name": "Student @ Bench B01", "deskLabel": "Grid 1-1", "xMin": 0.05, "yMin": 0.10, "xMax": 0.25, "yMax": 0.35 },
+        { "id": "B02", "name": "Student @ Bench B02", "deskLabel": "Grid 1-2", "xMin": 0.28, "yMin": 0.10, "xMax": 0.48, "yMax": 0.35 },
+        { "id": "B03", "name": "Student @ Bench B03", "deskLabel": "Grid 1-3", "xMin": 0.51, "yMin": 0.10, "xMax": 0.71, "yMax": 0.35 },
+        { "id": "B04", "name": "Student @ Bench B04", "deskLabel": "Grid 1-4", "xMin": 0.74, "yMin": 0.10, "xMax": 0.94, "yMax": 0.35 },
+        { "id": "B05", "name": "Student @ Bench B05", "deskLabel": "Grid 2-1", "xMin": 0.05, "yMin": 0.40, "xMax": 0.25, "yMax": 0.65 },
+        { "id": "B06", "name": "Student @ Bench B06", "deskLabel": "Grid 2-2", "xMin": 0.28, "yMin": 0.40, "xMax": 0.48, "yMax": 0.65 },
+        { "id": "B07", "name": "Student @ Bench B07", "deskLabel": "Grid 2-3", "xMin": 0.51, "yMin": 0.40, "xMax": 0.71, "yMax": 0.65 },
+        { "id": "B08", "name": "Student @ Bench B08", "deskLabel": "Grid 2-4", "xMin": 0.74, "yMin": 0.40, "xMax": 0.94, "yMax": 0.65 },
+        { "id": "B09", "name": "Student @ Bench B09", "deskLabel": "Grid 3-1", "xMin": 0.05, "yMin": 0.70, "xMax": 0.25, "yMax": 0.95 },
+        { "id": "B10", "name": "Student @ Bench B10", "deskLabel": "Grid 3-2", "xMin": 0.28, "yMin": 0.70, "xMax": 0.48, "yMax": 0.95 },
+        { "id": "B11", "name": "Student @ Bench B11", "deskLabel": "Grid 3-3", "xMin": 0.51, "yMin": 0.70, "xMax": 0.71, "yMax": 0.95 },
+        { "id": "B12", "name": "Student @ Bench B12", "deskLabel": "Grid 3-4", "xMin": 0.74, "yMin": 0.70, "xMax": 0.94, "yMax": 0.95 }
+      ]
+    }
+  },
+  "videoLayouts": {}
+}

@@ -1,0 +1,25 @@
+{
+  "hall_name": "Main Hall A",
+  "benches": [
+    {
+      "bench_id": "Bench-01",
+      "label": "Row 1 - Bench 1",
+      "roi_polygon": [[100, 200], [300, 200], [300, 400], [100, 400]]
+    },
+    {
+      "bench_id": "Bench-02",
+      "label": "Row 1 - Bench 2",
+      "roi_polygon": [[350, 200], [550, 200], [550, 400], [350, 400]]
+    },
+    {
+      "bench_id": "Bench-03",
+      "label": "Row 2 - Bench 1",
+      "roi_polygon": [[100, 450], [300, 450], [300, 650], [100, 650]]
+    },
+    {
+      "bench_id": "Bench-04",
+      "label": "Row 2 - Bench 2",
+      "roi_polygon": [[350, 450], [550, 450], [550, 650], [350, 650]]
+    }
+  ]
+}
